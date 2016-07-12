@@ -1,0 +1,428 @@
+﻿@import url(http://allfont.ru/allfont.css?fonts=lucida-sans-unicode);
+
+.wrapper {
+	width: 910px;
+	font-family: Arial, Tahoma, sans-serif;
+
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid yellow;
+}
+
+header {
+	width: 909px;
+	height: 268px;
+	border: 1px solid green;
+}
+
+.conteiner {
+	width: 909px;
+	height: 30px;
+	border: 1px solid red;
+}
+
+.conteiner div {
+	display: inline-block;
+}
+
+header img {
+	float: left;
+}
+
+header p {
+	float: left;
+	font-size: 18px;
+	color: #5e696d;
+}
+
+.avtoriz {
+	width: 496px;
+	height: 27px;
+	border-radius: 5px;
+	position: absolute;
+	left: 300px;
+	background-image: -moz-linear-gradient(top,#1f6787, #0c3357);
+	background-image:-webkit-gradient(linear, left top, left bottom, from(#1f6787), to(#0c3357));
+	border: 1px solid #a6c3cf;
+}
+
+.avtoriz img{
+	margin: 4px 5px;
+}
+
+.avtoriz form {
+	margin: 2px 5px;
+    font-family: 'Lucida Sans Unicode', arial;
+}
+
+.avtoriz form a{
+    color: #ffffff;
+	font-size: 10px;
+	font-family: 'Lucida Sans Unicode', arial;
+	text-decoration: none;
+	padding: 4px;
+}
+
+.avtoriz form a:last-child{
+    color: #bfbfbf;
+	font-size: 10px;
+	font-family: 'Lucida Sans Unicode', arial;
+	margin:9px;
+	text-decoration: underline;
+}
+
+.avtoriz form span {
+	color: #ffffff;
+}
+
+
+input[type="text"], input[type="password"]{
+	width: 114px;
+	height: 17px;
+}
+
+.connect {
+	width: 74px;
+	height: 19px;
+	border: 1px solid #bdc4c7;
+    border-radius: 10px;
+	float: right;
+}
+
+.main {
+	width: 912px;
+	height: 34px;
+    margin: 6px 0px 12px;	
+	background-image: -moz-linear-gradient(top,#505860, #010101);
+    background-image:-webkit-gradient(linear, left top, left bottom, from(#505860), to(#010101));	
+	border: 1px solid blue;
+	border-radius: 6px;	
+}
+
+.main div,nav {
+		display: inline-block;
+}
+
+.pokupki p,span{
+			display: inline-block;
+}
+
+.pokupki p {
+	color: #929b9f;
+	font-size: 11px;
+}
+
+.pokupki span {
+	color: #0d5a8f;	
+	font-size: 12px;
+}
+
+nav {
+	margin-left: 100px;
+    font-family: 'Lucida Sans Unicode', arial;
+	font-size: 14px;
+	text-transform:uppercase;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+	display: block;
+	text-decoration:none;
+    padding : 8px 15px;
+	color: #b1bcc0;
+}
+
+nav li a:hover {
+	background-image: -moz-linear-gradient(top,#1f6787, #0d3458);
+	background-image:-webkit-gradient(linear, left top, left bottom, from(#1f6787), to(#0d3458));
+	height: 27px;
+	padding: 0px 30px;
+    border-radius: 20px;
+    color: #ffffff;
+}
+
+.poiskavto {
+	width: 414px;
+	height: 133px;
+	border: 1px solid #b8b8b9;
+    border-radius: 10px;
+	position: relative;
+}
+
+h2 {
+	color: #154467;
+	font-size: 12px;
+	font-weight:bold;
+	position: absolute;
+	left: 140px;
+}
+
+h3 {
+	color: #154468;
+	font-size: 10px;
+	font-weight:bold;
+}
+
+.diski {
+	position: absolute;
+	top: 5px;
+	left: 40px;	
+}
+
+.shini {
+	position: absolute;
+	top: 5px;
+	left: 340px;		
+}
+
+.markaavto1 {
+	position: relative;
+}
+
+.markaavto1 p {
+	font-size: 10px;
+	color: #000000;
+	position: absolute;
+	top: 8px;
+	left: 10px;	
+}
+
+.markaavto1 span {
+	font-size: 9px;
+	color: #77858b;	
+}
+
+.markaavto1 select {
+    width: 80px;	
+	position: absolute;
+	top: 8px;
+	left: 80px;
+}
+
+.modelavto p{
+	font-size: 10px;
+	color: #000000;	
+	position: absolute;
+	top: 45px;
+	left: 10px;
+}
+
+.modelavto span {
+	font-size: 10px;
+	color: #77858b;	
+}
+
+.modelavto select{
+    width: 80px;	
+	position: absolute;
+	top: 45px;
+	left: 80px;	
+}
+
+.godvipuska p{
+	font-size: 10px;
+	color: #000000;	
+	position: absolute;
+	top: 70px;
+	left: 10px;	
+}
+
+.godvipuska span {
+	font-size: 10px;
+	color: #77858b;	
+}
+
+.godvipuska select{
+    width: 60px;	
+	position: absolute;
+	top: 70px;
+	left: 80px;	
+}
+
+.komplektacia p{
+	font-size: 10px;
+	color: #000000;	
+	position: absolute;
+	top: 95px;
+	left: 9px;	
+}
+
+.komplektacia select{
+    width: 80px;	
+	position: absolute;
+	top: 95px;
+	left: 80px;	
+}
+
+.markaavto2 {
+	position: relative;
+}
+
+.markaavto2 p {
+	font-size: 10px;
+	color: #000000;
+	position: absolute;
+	top: 8px;
+	left: 205px;	
+}
+
+.markaavto2 span {
+	font-size: 10px;
+	color: #77858b;	
+}
+
+.markaavto2 select {
+    width: 80px;	
+	position: absolute;
+	top: 8px;
+	left: 285px;
+}
+
+.modelavto2 p{
+	font-size: 10px;
+	color: #000000;	
+	position: absolute;
+	top: 45px;
+	left: 220px;
+}
+
+.modelavto2 span {
+	font-size: 10px;
+	color: #77858b;	
+}
+
+.modelavto2 select{
+    width: 80px;	
+	position: absolute;
+	top: 45px;
+	left: 300px;	
+}
+
+.godvipuska2 p{
+	font-size: 10px;
+	color: #000000;	
+	position: absolute;
+	top: 70px;
+	left: 220px;	
+}
+
+.godvipuska2 span {
+	font-size: 10px;
+	color: #77858b;	
+}
+
+.godvipuska2 select{
+    width: 60px;	
+	position: absolute;
+	top: 70px;
+	left: 300px;	
+}
+
+.komplektacia2 p{
+	font-size: 10px;
+	color: #000000;	
+	position: absolute;
+	top: 95px;
+	left: 220px;	
+}
+
+.komplektacia2 select{
+    width: 80px;	
+	position: absolute;
+	top: 95px;
+	left: 300px;	
+}
+
+.poisk {
+	position: absolute;
+	top: 112px;
+	left: 330px;	
+	color: #154467;
+	font-style:italic;
+}
+
+.poiskshin {
+	position: relative;	
+}
+
+.poiskshin h2 {
+	position: absolute;
+	top: 2px;
+	left: 10px;	
+}
+
+.poiskshina p {
+	font-size: 10px;
+	color: #000000;	
+	position: absolute;
+	top:25px;
+	left: 10px;	
+}
+
+.poiskshina select {
+    width: 40px;	
+	position: absolute;
+	top: 25px;
+	left: 50px;	
+}
+
+.conteiner2 div{
+	display: inline-block;
+}
+
+.poiskshin {
+	width: 192px;
+	height: 133px;
+	border: 1px solid #b8b8b9;
+    border-radius: 10px;
+	position: relative;	
+}
+
+.poiskdiskov {
+	width: 266px;
+	height: 133px;
+	border: 1px solid #b8b8b9;
+    border-radius: 10px;
+	position: relative;		
+}
+
+.conteiner3 div{
+	display: inline-block;	
+    border: 1px solid red;	
+}
+
+.aside {
+	width: 182px;
+	height: 333px;
+	border: 1px solid #b8b8b9;
+    border-radius: 10px;	
+}
+
+.tovar {
+	width: 525px;
+	height: 628px;
+	border: 1px solid #b8b8b9;
+    border-radius: 10px;	
+}
+
+.brend {
+	width: 181px;
+	height: 333px;
+	border: 1px solid #b8b8b9;
+    border-radius: 10px;	
+}
+
+.brend2 {
+    width: 684px;
+	height: 45px;
+	border: 1px solid black;
+}
+
+footer {
+	width: 909px;
+	height: 100px;
+	border: 1px solid black;
+}
