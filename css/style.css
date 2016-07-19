@@ -3,113 +3,168 @@
 .wrapper {
 	width: 910px;
 	font-family: Arial, Tahoma, sans-serif;
-
 	margin-left: auto;
 	margin-right: auto;
-	border: 1px solid yellow;
 }
 
-header {
-	width: 909px;
-	height: 268px;
-	border: 1px solid green;
+.clearfix:after {
+	content:'';
+	clear:both;
+	display:block;
 }
 
-.conteiner {
-	width: 909px;
-	height: 30px;
-	border: 1px solid red;
+/* header */
+
+header img:last-child{
+	margin-top: 4px;
 }
 
-.conteiner div {
+.conteiner1 div{
+	display: inline-block;	
+}
+
+.tel {
+	margin: 18px 0px 7px 6px;
+}
+
+.tel img{
+	margin-right: 5px;
+}
+
+.tel p{
+	margin-top: 2px;
+}
+
+.tel img,p{
 	display: inline-block;
+    vertical-align: top;
+    color: #5e696d;
+    font-size: 18px;
+    letter-spacing:0.4px;
 }
 
-header img {
-	float: left;
-}
-
-header p {
-	float: left;
-	font-size: 18px;
-	color: #5e696d;
-}
-
-.avtoriz {
-	width: 496px;
-	height: 27px;
+.password {
+	width: 495px;
+	height: 26px;
 	border-radius: 5px;
-	position: absolute;
-	left: 300px;
 	background-image: -moz-linear-gradient(top,#1f6787, #0c3357);
 	background-image:-webkit-gradient(linear, left top, left bottom, from(#1f6787), to(#0c3357));
 	border: 1px solid #a6c3cf;
+    margin-left: 13px;
+    box-shadow: 2px 2px 2px 1px #b4b4b4;	
 }
 
-.avtoriz img{
-	margin: 4px 5px;
-}
+.password img{
+    margin: 4px 3px 0px 6px;
+    float: left;	
+}	
 
-.avtoriz form {
-	margin: 2px 5px;
+.password form{
+	margin: 3px 2px;
     font-family: 'Lucida Sans Unicode', arial;
 }
 
-.avtoriz form a{
+.password form a{
     color: #ffffff;
-	font-size: 10px;
+	font-size: 11px;
 	font-family: 'Lucida Sans Unicode', arial;
 	text-decoration: none;
-	padding: 4px;
+    margin: 0px 2px;
+    vertical-align: 2px;
 }
 
-.avtoriz form a:last-child{
+.password form a:last-child{
     color: #bfbfbf;
-	font-size: 10px;
+	font-size: 12px;
 	font-family: 'Lucida Sans Unicode', arial;
-	margin:9px;
-	text-decoration: underline;
+    margin-left: 11px;
+	text-decoration: none;
+	border-bottom: 1px solid #bfbfbf;
 }
 
-.avtoriz form span {
+.password form span {
 	color: #ffffff;
 }
 
-
 input[type="text"], input[type="password"]{
-	width: 114px;
-	height: 17px;
+	width: 110px;
+	height: 11px;
+	font-family: 'Lucida Sans Unicode', arial;
+	font-size: 10px;
+	text-indent:2px;
+    vertical-align: top;
+	margin: 0px 1px 5px;
 }
 
-.connect {
-	width: 74px;
-	height: 19px;
+.home {
+	width: 77px;
+	height: 22px;
 	border: 1px solid #bdc4c7;
     border-radius: 10px;
-	float: right;
+	-moz-box-sizing: border-box;  
+    -webkit-box-sizing: border-box; 
+	padding: 0px 7px;
+	margin-left: 10px;
+	vertical-align: 2px;
+	box-shadow: 1px 1px 1px 0px #b4b4b4;
 }
 
-.main {
-	width: 912px;
-	height: 34px;
-    margin: 6px 0px 12px;	
+.home img {
+	margin: 0px 2px;
+}
+
+/* header and */
+
+/* nav */
+
+nav {	
+    width: 910px;
+	height: 32px;
+    margin: 6px 0px 0px;	
 	background-image: -moz-linear-gradient(top,#505860, #010101);
-    background-image:-webkit-gradient(linear, left top, left bottom, from(#505860), to(#010101));	
-	border: 1px solid blue;
-	border-radius: 6px;	
+    background-image:-webkit-gradient(linear, left top, left bottom, from(#505860), to(#010101));
+    border: 1px solid #3c4367;	
+	border-radius: 5px;
+    font-family: 'Lucida Sans Unicode', arial;
+	font-size: 14px;
+    box-shadow: 1px 1px 5px 1px #575861;
 }
 
-.main div,nav {
-		display: inline-block;
+nav ul{
+	margin-right: 288px;	
+}
+
+nav li a {
+	display: block;
+    float:right;
+	text-decoration:none;
+    padding : 8px 10px 0px 15px;
+	color: #b1bcc0;
+	text-transform:uppercase;
+}
+
+nav li a:hover {
+	background-image: -moz-linear-gradient(top,#1f6787, #0d3458);
+	background-image:-webkit-gradient(linear, left top, left bottom, from(#1f6787), to(#0d3458));
+    height: 17px;
+    border-radius: 20px;
+    color: #ffffff;
+	padding-bottom: 5px;
+}
+
+.pokupki {
+	float:right;
+    margin: 6px 9px 0px 0px;
 }
 
 .pokupki p,span{
-			display: inline-block;
+	display: inline-block;
 }
 
 .pokupki p {
 	color: #929b9f;
 	font-size: 11px;
+	margin: 0px 2px;
 }
 
 .pokupki span {
@@ -117,312 +172,573 @@ input[type="text"], input[type="password"]{
 	font-size: 12px;
 }
 
-nav {
-	margin-left: 100px;
-    font-family: 'Lucida Sans Unicode', arial;
-	font-size: 14px;
-	text-transform:uppercase;
-}
+/* nav and */
 
-nav li {
-    display: inline-block;
-}
+/* aside */
 
-nav li a {
-	display: block;
-	text-decoration:none;
-    padding : 8px 15px;
-	color: #b1bcc0;
-}
-
-nav li a:hover {
-	background-image: -moz-linear-gradient(top,#1f6787, #0d3458);
-	background-image:-webkit-gradient(linear, left top, left bottom, from(#1f6787), to(#0d3458));
-	height: 27px;
-	padding: 0px 30px;
-    border-radius: 20px;
-    color: #ffffff;
+aside div{
+	display: inline-block;
+    position: relative;
+	vertical-align: top;
+	overflow: hidden;
 }
 
 .poiskavto {
 	width: 414px;
-	height: 133px;
-	border: 1px solid #b8b8b9;
-    border-radius: 10px;
-	position: relative;
+	height: 134px;
+	border: 1px solid #c4c4c4;
+    border-radius: 17px;
+    background-clip: padding-box;
+    box-shadow: 2px 2px 2px 1px #999999;
+	margin: 10px 0px 0px 5px;
+	box-sizing: border-box;
 }
 
-h2 {
+.title {
 	color: #154467;
 	font-size: 12px;
 	font-weight:bold;
-	position: absolute;
-	left: 140px;
+    text-align: center;
+    margin-bottom: 7px;
 }
 
-h3 {
-	color: #154468;
-	font-size: 10px;
-	font-weight:bold;
+.poiskavto h2{
+	margin-left: 10px;
 }
 
-.diski {
-	position: absolute;
-	top: 5px;
-	left: 40px;	
+.selectwrapper {
+    display: table;
+    width:100%;
+    vertical-align: top;
 }
 
-.shini {
-	position: absolute;
-	top: 5px;
-	left: 340px;		
+.select-element {
+    display: table-cell;
+    width:50%;
+    vertical-align: top;
+    position: relative;
+    padding-left: 15px;	   
 }
 
-.markaavto1 {
-	position: relative;
+.select-element:last-child {
+	padding-left: 15px;
+    width:50%;
 }
 
-.markaavto1 p {
-	font-size: 10px;
-	color: #000000;
-	position: absolute;
-	top: 8px;
-	left: 10px;	
+.select-element p {
+    margin: 0px;
+    margin-bottom: 3px;
 }
 
-.markaavto1 span {
+.select-element span,
+.select-element select {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.select-element span {
 	font-size: 9px;
 	color: #77858b;	
+    width: 64px;
 }
 
-.markaavto1 select {
-    width: 80px;	
-	position: absolute;
-	top: 8px;
-	left: 80px;
-}
-
-.modelavto p{
-	font-size: 10px;
-	color: #000000;	
-	position: absolute;
-	top: 45px;
-	left: 10px;
-}
-
-.modelavto span {
-	font-size: 10px;
-	color: #77858b;	
-}
-
-.modelavto select{
-    width: 80px;	
-	position: absolute;
-	top: 45px;
-	left: 80px;	
-}
-
-.godvipuska p{
-	font-size: 10px;
-	color: #000000;	
-	position: absolute;
-	top: 70px;
-	left: 10px;	
-}
-
-.godvipuska span {
-	font-size: 10px;
-	color: #77858b;	
-}
-
-.godvipuska select{
-    width: 60px;	
-	position: absolute;
-	top: 70px;
-	left: 80px;	
-}
-
-.komplektacia p{
-	font-size: 10px;
-	color: #000000;	
-	position: absolute;
-	top: 95px;
-	left: 9px;	
-}
-
-.komplektacia select{
-    width: 80px;	
-	position: absolute;
-	top: 95px;
-	left: 80px;	
-}
-
-.markaavto2 {
-	position: relative;
-}
-
-.markaavto2 p {
+.select-element b {
 	font-size: 10px;
 	color: #000000;
-	position: absolute;
-	top: 8px;
-	left: 205px;	
+    font-weight:bold;
 }
 
-.markaavto2 span {
-	font-size: 10px;
-	color: #77858b;	
+.select-element select {
+	width: 103px;
+    height: 17px;
+    border-bottom: none;
+    margin-left: 6px;
 }
 
-.markaavto2 select {
-    width: 80px;	
-	position: absolute;
-	top: 8px;
-	left: 285px;
+.select-element .godvipuska {
+    width: 58px;
 }
 
-.modelavto2 p{
-	font-size: 10px;
-	color: #000000;	
-	position: absolute;
-	top: 45px;
-	left: 220px;
+.h3diski {
+    color: #154468;
+    font-size: 10px; 
+    font-weight:bold; 
+    position: absolute;
+    top: 5px;
+    left: 18px;
 }
 
-.modelavto2 span {
-	font-size: 10px;
-	color: #77858b;	
-}
-
-.modelavto2 select{
-    width: 80px;	
-	position: absolute;
-	top: 45px;
-	left: 300px;	
-}
-
-.godvipuska2 p{
-	font-size: 10px;
-	color: #000000;	
-	position: absolute;
-	top: 70px;
-	left: 220px;	
-}
-
-.godvipuska2 span {
-	font-size: 10px;
-	color: #77858b;	
-}
-
-.godvipuska2 select{
-    width: 60px;	
-	position: absolute;
-	top: 70px;
-	left: 300px;	
-}
-
-.komplektacia2 p{
-	font-size: 10px;
-	color: #000000;	
-	position: absolute;
-	top: 95px;
-	left: 220px;	
-}
-
-.komplektacia2 select{
-    width: 80px;	
-	position: absolute;
-	top: 95px;
-	left: 300px;	
+.h3shini {
+    color: #154468;
+    font-size: 10px; 
+    font-weight:bold; 
+    position: absolute;
+    top: 3px;
+    left: 355px;
 }
 
 .poisk {
+    display: block;
+    text-align: right;
 	position: absolute;
-	top: 112px;
-	left: 330px;	
-	color: #154467;
-	font-style:italic;
+	right: 7px;
 }
+
+input[type="submit"] {
+    background: transparent;
+    border: 0px;
+    box-shadow: 0px;
+    text-decoration: underline;
+    color: #154467;
+    font-size: 14px;
+    font-style:italic;
+    font-family: Arial;
+    cursor: pointer;
+}
+
+/* poiskavto and */
 
 .poiskshin {
-	position: relative;	
+	width: 193px;
+	height: 134px;
+	border: 1px solid #c4c4c4;
+    border-radius: 17px;
+    background-clip: padding-box;
+    box-shadow: 2px 2px 2px 1px #999999;
+	margin: 10px 0px 0px 10px;
+    box-sizing: border-box;
 }
 
-.poiskshin h2 {
-	position: absolute;
-	top: 2px;
-	left: 10px;	
+.poiskshin .title{
+	text-align: left;
+	padding-left: 12px;
 }
 
-.poiskshina p {
+.shintable {
+    display: table;
+    width:100%;
+    height: 100%;
+    vertical-align: top;
+    position: relative;
+    padding-left: 10px;	   
+}
+
+.shintable p {
+    margin: 0px;
+    margin-bottom: 3px;
+}
+
+.shintable span,
+.shintable select {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.shintable span {
+    font-family: 'Lucida Sans Unicode', arial;
 	font-size: 10px;
-	color: #000000;	
-	position: absolute;
-	top:25px;
-	left: 10px;	
+	color: #000000;
 }
 
-.poiskshina select {
-    width: 40px;	
-	position: absolute;
-	top: 25px;
-	left: 50px;	
+.poiskshin select {
+	width: 50px;
+    height: 16px;
+    margin-left: 5px;
+}	   
+
+.shirina select{
+	width: 50px;
 }
 
-.conteiner2 div{
+.visota select{
+	width: 60px;	
+}
+
+.radius {
+	padding-left: 35px;
+}
+
+.radius select{
+    width: 40px;
+}
+
+.shintable label {
+	font-family: 'Lucida Sans Unicode', arial;
+	font-size: 12px;
+}
+
+.shintable input[type="checkbox"]{
+    margin-left: 12px;
+}
+
+.shintable input[type="checkbox"]:first-child{
+    margin-left: 51px;
+}
+
+.sezoni p{
+	margin-bottom: -2px;
+}
+
+.poiskshin .poisk{
+	position: absolute;
+	right: 17px;	
+}
+
+/* poiskshin and */
+
+.poiskdisk {
+	width: 267px;
+	height: 134px;
+	border: 1px solid #c4c4c4;
+    border-radius: 17px;
+    background-clip: padding-box;
+	padding-left: 15px;
+    box-shadow: 2px 2px 2px 1px #999999;
+	margin: 9px 0px 0px 6px;
+    box-sizing: border-box;
+}
+
+.poiskdisk h2{
+	display: block;
+	width:  80px;
+	float:left;
+	text-align: left;
+    margin: 3px;
+}
+
+.diametr {
+    display: table-cell;
+    width:65%;
+    vertical-align: top;
+    position: relative;    
+}
+
+.diametr p {
+    margin: 0px;
+    margin-bottom: 3px;
+}
+
+.diametr span,
+.diametr select {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.diametr span {
+	font-family: 'Lucida Sans Unicode', arial;
+	font-size: 9px;
+	color: #77858b;	
+    width: 64px;
+}
+
+.diametr b {
+	font-family: 'Lucida Sans Unicode', arial;
+	font-size: 10px;
+	color: #000000;
+}
+
+.diametr select {
+	width: 55px;
+    height: 15px;
+    border-bottom: none;
+    margin-left: 23px;
+	font-size: 11px;
+}
+
+.otv select {
+	width: 49px;	
+}
+
+.dco {
+    display: table-cell;
+    width:35%;
+    float: right;
+    vertical-align: top;
+    position: relative;
+	top:-100px;
+    border-left: 1px solid #bdc6ca;
+    padding-left: 10px;	
+}
+
+.dco p {
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+.dco span,
+.dco select {
+    display: inline-block;
+    vertical-align: middle; 
+}
+
+.dco span {
+    font-family: 'Lucida Sans Unicode', arial;
+	font-size: 8px;
+	color: #77858b;	
+    width: 64px;
+    margin-left: 5px;
+}
+
+.dco b {
+    font-family: 'Lucida Sans Unicode', arial;
+	font-size: 9px;
+	color: #000000;
+}
+
+.dco select {
+    width: 70px;
+    height: 15px;
+    border-bottom: none;
+    margin: 3px 5px;
+	font-size: 11px;
+}
+
+/* poiskdisk and */
+
+/* aside and */
+
+/* section */
+
+.sitebar-left {
+    width: 183px;
+	float: left;
+}
+
+.sitebar-left h1 {
+	width: 180px;
+	height: 26px;
+	font-family: 'Lucida Sans Unicode', arial;
+	font-size: 13px;
+	color: #114165;
+	border: 1px solid #91999d;
+	border-radius: 14px;
+	margin-top:3px;
+}
+
+h1 {
+    box-shadow: 1px 1px 1px 1px #999999;
+}
+
+h1 img{
+	vertical-align: -7px;
+    margin: 2px 2px;
+}
+
+h4 {
+	width: 149px;
+	height: 27px;
+	font-family: 'Lucida Sans Unicode', arial;
+	font-size: 14px;
+	color: #114165;
+	border: 1px solid #79878d;
+	border-radius: 14px;
+    margin: 10px 0px 0px 2px;	
+}
+
+h4 img{
+	vertical-align: -7px;
+    margin: 1px 3px;
+}
+
+.diski-img{
+	margin:0px;
+}
+
+.bolti-img{
+	margin:0px;
+}
+
+.sitebar-left ul {
+    list-style-image: url(../img/spisok.png);
+	list-style-type:disc;
+	margin-left: 51px;
+	line-height:24px;
+}
+
+.sitebar-left ul a{
+	color: #465961;
+	font-family: 'Lucida Sans Unicode', arial;
+	font-size: 12px;
+    text-decoration:none;	
+}   
+
+.sitebar-left li a:hover{
+    color: #0c3256;
+	font-family: Arial;
+	font-size: 14px;
+    font-style:italic;
+	font-weight:bold;	
+    text-decoration:underline;
+}
+
+.sitebar-left ul li:hover{
+	list-style-image: url(../img/spisok2.png);	
+}
+   
+.content {
+	width: 525px;
+	height: 628px;	
+	margin:18px auto;
+	background-image: -moz-linear-gradient(top,#e5e7e8, #93a7b0);
+	background-image:-webkit-gradient(linear, left top, left bottom, from(#e5e7e8), to(#93a7b0));
+    border-radius: 5px;	
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+
+.content div{
 	display: inline-block;
 }
 
-.poiskshin {
-	width: 192px;
-	height: 133px;
-	border: 1px solid #b8b8b9;
-    border-radius: 10px;
-	position: relative;	
+.sitebar-right {
+    width: 183px;	
+	float: right;
+	position: relative;
 }
 
-.poiskdiskov {
-	width: 266px;
-	height: 133px;
-	border: 1px solid #b8b8b9;
-    border-radius: 10px;
-	position: relative;		
+.sitebar-right h1{
+	width: 180px;
+	height: 26px;
+	font-family: 'Lucida Sans Unicode', arial;
+	font-size: 14px;
+	color: #0c3256;
+	border: 1px solid #91999d;
+	border-radius: 14px;
 }
 
-.conteiner3 div{
-	display: inline-block;	
-    border: 1px solid red;	
+.sitebar-right h4{
+	width: 135px;
+	height: 26px;
+	font-size: 14px;
+	color: #0c3256;
+	border: 1px solid #91999d;
+	border-radius: 14px;
+    margin: 12px 0px 0px 15px;	
 }
 
-.aside {
-	width: 182px;
-	height: 333px;
-	border: 1px solid #b8b8b9;
-    border-radius: 10px;	
+
+
+.sitebar-right label{
+	font-family: 'Lucida Sans Unicode', arial;
+	font-size: 12px;
+	color: #465961;	
+}
+
+.sitebar-right p {
+	margin-left: 20px;
+	line-height:24px;
+}
+
+.sitebar-right input[type="submit"]{
+	width: 80px;
+	height: 25px;
+	background-image: -moz-linear-gradient(top,#1f6787, #0c3357);
+	background-image:-webkit-gradient(linear, left top, left bottom, from(#1f6787), to(#0c3357));
+	border-radius: 14px;
+	font-size: 11px;
+	color: #e5e9ea;	
+    text-decoration: none;
+	font-style:normal;
+	position: absolute;
+	top:275px;
+	right: 80px;
 }
 
 .tovar {
-	width: 525px;
-	height: 628px;
-	border: 1px solid #b8b8b9;
-    border-radius: 10px;	
+    width: 137px;
+	height: 183px;
+	text-align: center;
+	margin: 13px 13px;
 }
 
-.brend {
-	width: 181px;
-	height: 333px;
-	border: 1px solid #b8b8b9;
-    border-radius: 10px;	
+.tovar p{
+	font-family: 'Lucida Sans Unicode', arial;
+	font-size: 14px;
+	color: #206988;	
 }
 
-.brend2 {
-    width: 684px;
-	height: 45px;
-	border: 1px solid black;
+.tovar span{
+	font-family: 'Lucida Sans Unicode', arial;
+	font-size: 12px;
+	color: #1f2528;	
 }
+
+.tovar p:last-child{
+	margin-top: 2px;
+	font-family: Arial;
+	font-size: 16px;
+	color: #114165;
+    font-style:italic;
+	font-weight:bold;		 
+}
+
+.foto-tovar {
+	width: 137px;
+	height: 128px;
+	background-color: #ffffff;
+    border: 1px solid #a4aeb1;
+    border-radius: 10px;
+}
+
+.foto-tovar img{
+	margin: 5px 30px;
+}
+
+/* section and */
+
+.brandlogo {
+	margin: 40px 0px 20px 110px;
+}
+
+.brandlogo img{
+	vertical-align: top;	
+}
+
+.brandlogo a{
+	margin: 5px;
+}
+
+/* footer */
 
 footer {
-	width: 909px;
+	width: 910px;
 	height: 100px;
-	border: 1px solid black;
+	background-color: #213a4d;
+	box-sizing: border-box;
+	padding-top: 5px;
 }
+
+footer ul {
+	display: block;
+	margin: 3px 0px 0px 310px;
+}
+
+footer ul li{
+	display: inline-block;
+	margin: 0px 5px;
+}
+
+footer li a{
+	font-family: Arial;
+	font-size: 12px;
+	color: #bec6c9;	
+	text-decoration: none;
+}
+
+footer li a:hover{
+	color: #52abcb;	
+}
+
+footer span{
+	font-size: 12px;
+	color: #bec6c9;	
+}
+
+footer p{
+	margin: 17px 370px;
+	font-family: Arial;
+	font-size: 10px;
+	color: #7f4740;	
+}
+
+/* footer and */
